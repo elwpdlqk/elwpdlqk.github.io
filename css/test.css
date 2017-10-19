@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+ul {
+	list-style: none;
+}
+
+body {
+	background: #dbdbdb no-repeat;
+	background-size: cover;
+	transition: all 5.0s;
+}
+
+#wrap {
+	width: 1903px;
+	margin: 0 auto;	
+}
+/*header start*/
+
+header {
+	position: relative;
+	width: 1000px;
+	height: 170px;
+	margin: 0 auto;
+}
+header h1 {	
+	display: none;
+	margin: 50px auto 0;
+	width: 100px;
+	height: 100px;
+	background: url(../img/logo_1.png) no-repeat rgba(188, 188, 188, 0.68);
+	background-size: contain;
+	border-radius: 25px
+}
+header h1 a {
+	display: block;
+	height: 100%;
+}
+header nav {
+	display: none;
+	border-bottom: 2px solid #dbdbdb;
+}
+header ul {
+	text-align: center;
+}
+header li {
+	display: inline-block;
+}
+header li a {
+	margin:40px;
+	font-size: 30px;
+	line-height: 70px;
+}
+header .togle {
+	position: absolute;
+	top: 10px;
+	right: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+/*header end*/
+
+
+
+
+
+
+/*main start*/
+
+.window {
+	position: relative;
+	width: 800px;
+	height: 400px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.window .container {
+	position: relative;
+	width: 2000px;
+	overflow: hidden;
+}
+.window .container div {
+	float: left;
+	width: 800px;
+	height: 400px;
+	line-height: 400px;
+	text-align: center;
+	color: #fff;
+	font-size: 150px;
+}
+
+.container .b1 {
+	background: rgba(82, 65, 211, 0.51);
+}
+.container .b2 {
+	background: rgba(73, 191, 146, 0.43);
+}
+.container .b3 {
+	background: rgba(212, 92, 222, 0.48);
+}
+.container .b4 {
+	background: rgba(71, 117, 163, 0.5);
+}
+.container .b5 {
+	background: rgba(255, 44, 101, 0.46);
+}
+
+.window .left {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -25px;
+	width: 100px;
+	height: 50px;
+	border-radius: 5px;
+	background: rgba(255, 255, 255, 0.46);
+}
+.window .right {
+	position: absolute;
+	right: 0;
+	top:50%;
+	margin-top: -25px;
+	width: 100px;
+	height: 50px;
+	border-radius: 5px;
+	background: rgba(255, 255, 255, 0.46);
+}
+
+/*main end*/
+
+
+
+
+
+
+/*footer start*/
+
+
+footer {
+	
+}
+footer address {
+	
+}
+
+/*footer end*/
+
+
+
