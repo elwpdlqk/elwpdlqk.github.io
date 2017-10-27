@@ -70,23 +70,6 @@ header .lbox h1 a {
     background-size: contain;
 }
 
-header .lbox .sns {
-    position: absolute;
-    bottom: 5%;
-    left: 50%;
-    width: 60%;
-    margin-left: -30%;
-    border: 5px solid #dbdbdb;
-    border-radius: 10px
-}
-
-header .lbox .sns h4 {
-    border-bottom: 3px solid #dbdbdb;
-    background: #dbdbdb;
-    text-align: center;
-    font-style: normal;
-}
-
 header .vibox {
     position: relative;
     height: 200px;
