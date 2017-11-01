@@ -201,7 +201,6 @@ header .rbox .togle a {
     margin-left: -50px;
     width: 100px;
     height: 100px;
-    background: #747474;
     color: #fff;
     text-align: center;
     line-height: 100px;
@@ -214,7 +213,6 @@ footer {
     margin: 0 auto;
     padding: 80px;
     box-sizing: border-box;
-    background: #222222;
 }
 
 footer .footertop {
