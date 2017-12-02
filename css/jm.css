@@ -168,15 +168,20 @@ header .rbox .togle a {
 }
 
 #container section aticle:nth-child(2) {
-    background: #8455ce;
+    background: url(../img/mol.png);
+    background-size: cover;
 }
 
 #container section aticle:nth-child(3) {
-    background: #2fc7ff;
+    background: url(../img/wha.png);
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 #container section aticle:nth-child(4) {
-    background: #aaff56;
+    background: url(../img/ashley.png);
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 #container section aticle:nth-child(5) {
