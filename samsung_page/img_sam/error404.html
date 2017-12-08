@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes" />
+	<script type="text/javascript">
+	//=====================================================
+	//* 브라우저 언어 설정을 체크하여 언어별로
+	//* 시작 페이지를 달리함
+	//=====================================================
+
+	var language;
+
+	//브라우저 언어 감지 시작=======================================
+	if(navigator.appName == "Netscape"){
+		language = navigator.language;//그외
+	}else{
+		language = navigator.browserLanguage;//익스플로러
+	}
+	//브라우저 언어 감지 종료=======================================
+
+	if(language == "" || language == null || language == "undefined" || language == undefined){ language = navigator.userLanguage;}
+	if(language == "" || language == null || language == "undefined" || language == undefined){ language = navigator.systemLanguage;}
+
+	//alert("language : "+language)
+
+	//언어별 분기 시작=======================================
+	if(language.indexOf("en") > -1){//영어
+		//iclasLoad('sem_global');
+		window.location.replace("http://www.samsungsem.com/global/etc/sitemap/pnf.jsp");
+	}else if(language.indexOf("ko") > -1){//한국
+		//iclasLoad('sem_kr');
+		window.location.replace("http://www.samsungsem.com/kr/etc/sitemap/pnf.jsp");
+	}else if(language.indexOf("cn") > -1){//중국
+		//iclasLoad('sem_cn');
+		window.location.replace("http://www.samsungsem.com/cn/etc/sitemap/pnf.jsp");
+	}else if(language.indexOf("zh") > -1){//중국
+		//iclasLoad('sem_cn');
+		window.location.replace("http://www.samsungsem.com/cn/etc/sitemap/pnf.jsp");
+	}else if(language.indexOf("ja") > -1){//일본
+		//iclasLoad('sem_jp');
+		window.location.replace("http://www.samsungsem.com/jp/etc/sitemap/pnf.jsp");
+	}else{//그외
+		//iclasLoad('sem_global');
+		window.location.replace("http://www.samsungsem.com/global/etc/sitemap/pnf.jsp");
+	}
+	//언어별 분기 종료=======================================
+
+
+</script>
+
+</head>
+</html>
+
