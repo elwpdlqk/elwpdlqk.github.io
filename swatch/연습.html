@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script src="/js/lib/jquery-3.2.1.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$(window).on('scroll', function () {
+				//브라우저를 스크롤 했을 때
+				var ab = $(this).scrollTop();
+				//스크롤 한 만큼의 거리를 ab에 담아라
+				$('p').text(ab);
+			//p태그 안에 텍스트로 출력해라
+			});
+		});
+	</script>
+	<style>
+		body {
+			height: 3000px;
+		}
+		p {
+			position: fixed;
+			top: 0;
+			left: 0;
+			font-size: 30px;
+		}
+	</style>
+</head>
+<body>
+	<p>출력</p>
+</body>
+</html>
