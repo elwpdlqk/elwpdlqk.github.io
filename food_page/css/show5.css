@@ -1,0 +1,261 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: 0;
+}
+a {
+	text-decoration: none;
+	color: #cbcbcb;
+}
+ul {
+	list-style: none;
+}
+body {
+	font: 12px 'Arial';
+	color: #5d5d5d;
+}
+address,em {
+	font-style:normal;
+}
+.hd {
+	display: none;
+}
+#container {
+	width: 100%;
+}
+header {
+	width: 100%;
+}
+.top {
+	width: 100%;
+	height: 80px;
+}
+.logo {
+	width: 280px;
+	height: 60px;
+	margin: 20px auto;
+	background:url(../img02/img_logo.png) no-repeat;
+	background-size:280px 61px;
+}
+h1 {
+	width: 0;
+	height: 0;
+	text-indent: -9999px;
+	font-size: 0;
+}
+nav {
+	width: 100%;
+	height: 40px;
+	background: #152314;
+}
+nav ul.gnb {
+	text-align: center;
+}
+nav ul.gnb li {
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 6px;
+}
+nav ul.gnb li:first-child {
+	margin-left: 0;
+}
+nav ul.gnb li a {
+	display: block;
+	padding:5px 10px;
+	font-size: 15px;
+	line-height: 20px;
+}
+nav ul.gnb li a:hover {
+	/*background: red;*/
+}
+.toggle {
+	float: right;display: none;
+}
+
+section.imgSlide {
+	width: 100%;
+	height: 500px;
+	background:url(../img02/1493168441.jpg) no-repeat top 40% center #F2AC2A;
+	background-size:cover;
+	margin-bottom: 10px;
+}
+#contents {
+	width: 100%;
+}
+section.product img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+/*block 지정해야 width값 적용. 여백 안 생김*/
+section.product {
+	width: 933px;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+article.pro1 {
+	float: left;
+	width: 49%;
+	height: auto;
+	margin-bottom: 1%;
+	background: #2f9155;
+}
+article.pro2 {
+	float: right;
+	width: 49%;
+	height: auto;
+	margin-bottom: 1%;
+	background: #f278db;
+}
+article.pro3 {
+	float: left;
+	width: 49%;
+	height: auto;
+	background: #a24e4e;
+}
+article.pro4 {
+	float: right;
+	width: 49%;
+	height: auto;
+	background: #8aa7ce;
+	margin-bottom: 20px;
+}
+
+section.product:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*online order*/
+
+.pro5 {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+.pro5_1 {
+	width: 100%;
+	height: 400px;
+	background:url(../img02/wp_main_img.jpg)no-repeat top center;
+	background-size:cover;
+}
+
+.pro5_1_1 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -50px;
+	width: 300px;
+	height: 100px;
+	border: solid 5px #fff;
+	color: #fff;
+	text-align: center;
+	background-color:rgba(255,255,255,0.3);
+	padding-top: 5px;/*문자의 위치조정*/
+	box-sizing: border-box;/*패딩값을 포함하기위해*/
+}
+.pro5_1_1 h3{
+	font-size: 35px;
+}
+.pro5_1_1 p{
+	line-height: 1;/*문자의 높이*/
+	font-size: 17px;
+}
+figcaption {
+	padding: 0 30px;
+}
+figcaption h3 {
+	font-size: 20px;
+	color: #1dbe3c;
+	line-height: 2;
+}
+figcaption p {
+	font-size: 13px;
+}
+.pro6 {
+	width: 100%;
+	height: 200px;
+	background:url(../img02/img_topImg.jpg)no-repeat center center;
+	background-size: cover;
+	margin-top: 30px;
+}
+footer {
+	width: 100%;
+	height: 100px;
+	background: #0a1210;
+	padding: 30px;
+	box-sizing: border-box;
+	text-align: left;
+}
+footer .sns {
+	font-size: 20px;
+	float: right;
+}
+footer .sns div {
+	float: left;
+	margin-left: 7px;
+}
+footer i:hover {
+	color: #9fbf72;
+}
+/*589~952*/
+@media screen and (min-width:589px) and (max-width:952px){
+	section.product {
+		width: 100%;
+		padding:5px 20px;
+		box-sizing: border-box;
+	}
+	section.imgSlide {
+		height: 400px;
+	}
+	footer {
+		height: 100%;
+	}
+}
+/*588*/
+@media screen and (max-width:588px){
+	nav ul.gnb {
+	display: none;
+	}
+	.toggle {
+		display: block;
+	}
+	section.imgSlide {
+	height: 350px;
+	background:url(../img02/1493168441.jpg) no-repeat left -20px center #F2AC2A;
+	}
+	section.product {
+		width: 100%;
+		padding:5px 20px;
+		box-sizing: border-box;
+	}
+	article.pro1, article.pro2, article.pro3, article.pro4 {
+		float: none;
+		width: 100%;
+	}
+	.pro2_1, .pro3_2{
+		display: none;
+	}
+	.pro4 {
+		height: 200px;
+	}
+	.pro5_1_1 {
+		width: 200px;
+		height: 160px;
+		margin-left: -100px;
+		margin-top: -120px;
+	}
+	.pro5_1_1 p {
+		margin-top: 20px;
+	}
+	footer {
+		height: 100%;
+	}
+}
