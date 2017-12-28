@@ -118,15 +118,11 @@ header .rbox .togle {
 header .rbox .togle a {
     color: #000;
 }
+
 /*header end*/
 
-
-
-
-
-
-
 /*main start*/
+
 #container {
     width: 70%;
     margin: 0 auto;
@@ -221,12 +217,11 @@ header .rbox .togle a {
     line-height: 100px;
     border-radius: 50%;
 }
+
 /*main end*/
 
-
-
-
 /*footer start*/
+
 footer {
     width: 70%;
     margin: 0 auto;
@@ -252,4 +247,5 @@ footer .footertop div {
 footer .footerbottom {
     height: 100px;
 }
+
 /*footer end*/
