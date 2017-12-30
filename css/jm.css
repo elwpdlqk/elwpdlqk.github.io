@@ -40,9 +40,6 @@ body {
     font-family: 'Hanna', 'Nanum Brush Script', serif;
 }
 
-
-
-
 /*header start*/
 
 header .lbox {
@@ -51,7 +48,7 @@ header .lbox {
     left: 0;
     width: 15%;
     height: 100%;
-    background: #fff;
+    background: #f4e5e5;
     z-index: 3;
 }
 
@@ -76,7 +73,7 @@ header .lbox h1 a {
 header .vibox {
     position: relative;
     height: 200px;
-    background: #fff;
+    background: #f4e5e5;
 }
 
 header .vibox .vi {
@@ -99,7 +96,7 @@ header .rbox {
     right: 0;
     width: 15%;
     height: 100%;
-    background: #fff;
+    background: #f4e5e5;
 }
 
 header .rbox .togle {
