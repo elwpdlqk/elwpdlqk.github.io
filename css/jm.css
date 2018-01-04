@@ -48,7 +48,7 @@ header .lbox {
     left: 0;
     width: 15%;
     height: 100%;
-    background: #f4e5e5;
+    background: #FFF;
     z-index: 3;
 }
 
@@ -73,7 +73,7 @@ header .lbox h1 a {
 header .vibox {
     position: relative;
     height: 200px;
-    background: #f4e5e5;
+    background: #FFF;
 }
 
 header .vibox .vi {
@@ -96,7 +96,7 @@ header .rbox {
     right: 0;
     width: 15%;
     height: 100%;
-    background: #f4e5e5;
+    background: #FFF;
 }
 
 header .rbox .togle {
@@ -122,7 +122,7 @@ header .rbox .togle a {
 #container {
     width: 70%;
     margin: 0 auto;
-    background: #f4e5e5;
+    background: #FFF;
 }
 
 
@@ -224,7 +224,7 @@ footer {
     margin: 0 auto;
     padding: 80px;
     box-sizing: border-box;
-    background: #f4e5e5;
+    background: #FFF;
 }
 
 footer .footertop {
