@@ -240,6 +240,7 @@ footer .footertop div {
     height: 100px;
     line-height: 100px;
     background: #999;
+    border-radius: 10px
 }
 
 footer .footerbottom {
